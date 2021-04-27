@@ -23,5 +23,9 @@ public class Conexion {
             System.out.println(ex.toString());
             return null;
         }
-    } 
+    }
+    
+    public void update(){
+        System.out.println("debe registrarse esto");
+    }
 }
